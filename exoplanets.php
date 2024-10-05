@@ -3,7 +3,7 @@
     <section class="lattest-product-area pb-40 category-list">
         <div class="row">
 
-            <!--Listado con php de los productos-->
+            <!--Listado con php de los planetas-->
             <?php
             include("db.php");
             $query = "SELECT * FROM productos WHERE categoria='Farmacia'";
