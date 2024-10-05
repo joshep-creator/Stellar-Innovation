@@ -6,7 +6,7 @@
             <!--Listado con php de los productos-->
             <?php
             include("db.php");
-            $query = "SELECT * FROM productos WHERE categoria='Farmacia'";
+            $query = "SELECT nasa_vch_name_planet, nasa_dec_distance, nasa_int_year, nasa_int_suns_planet, nasa_int_mun_planet, nasa_vch_descover, nasa_dec_tiempo_orbita, nasa_dec_insolacion, nasa_dec_temperatura, nasa_vch_descripction FROM tbl_nasa_exoplanetas LIMIT 10";
             $resultado1 = mysqli_query($conn, $query);
             /* El código anterior es un bucle de PHP que obtiene datos de una base de datos MySQL y los muestra como una cuadrícula de exoplanetas en una
 								página web. Recupera cada fila de datos de la variable  y la muestra en una única división de exoplaneta. El código también incluye la imagen del exoplaneta, el nombre, la descripcion y un comentario educativo
@@ -19,16 +19,17 @@
                     <div class="card">
                         <img class="card-img-top img-fluid" src="data:image/png;base64,<?php echo base64_encode($row['imagen_url']); ?>" style="height: 150px; width: auto;">
                         <div class="card-body">
-                            <h6><?php echo $row["nombre"]; ?></h6>
+                            <h6><?php echo $row["nasa_vch_name_planet"]; ?></h6>
                             <div class="price">
                                 <!--Actual price-->
-                                <h6>$<?php echo $row["precio"]; ?> <strong>COP</strong></h6>
+                                <h6><?php echo $row["nasa_int_year"]; ?> <strong>Year</strong></h6>
                                 <!--Before price-->
                                 <h6 class="l-through"></h6>
                             </div>
                             <button type="submit" class="btn btn-primary" id="verMasButton<?php echo $contador; ?>">Ver Más</button>
                             <dialog id="miDialog<?php echo $contador; ?>">
-                                <?php echo $row["description"]; ?>
+                                <?php echo $row["nasa_vch_descripction"]; ?>
+                                <h6>The distance to Earth</h6><?php echo $row["nasa_dec_distance"]; ?><h6>Persecs</h6>
                                 <button id="cerrarButton<?php echo $contador; ?>">Cerrar</button>
                             </dialog>
                             <script>
