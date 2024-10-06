@@ -38,7 +38,7 @@
                 <div class="card">
                     <img class="card-img-top img-fluid" src="src/img/planet_1.jpg" style="height: 150px; width: auto;">
                     <div class="card-body">
-                        <h6>planet..nombrhfhfhfhfhfhfhe</h6>
+                        <h6>55 Cancri e</h6>
                         <div class="price">
                             <!--Actual year-->
                             <h6>Year Discover<strong>Year</strong></h6>
@@ -73,13 +73,13 @@
                 </div>
             </div>
 
-            <!-- single planet 1 -->
+            <!-- single planet 2 -->
             <div class="col-lg-3 col-md-4 col-sm-1 mb-4">
                 <?php $contador = 0; ?>
                 <div class="card">
                     <img class="card-img-top img-fluid" src="src/img/planet_1.jpg" style="height: 150px; width: auto;">
                     <div class="card-body">
-                        <h6>planet..nombre</h6>
+                        <h6>AU Microscopii b</h6>
                         <div class="price">
                             <!--Actual year-->
                             <h6>Year Discover<strong>Year</strong></h6>
