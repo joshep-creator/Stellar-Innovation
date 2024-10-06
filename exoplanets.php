@@ -407,7 +407,7 @@
                 <div class="card">
                     <img class="card-img-top img-fluid" src="src/img/planet_1.jpg" style="height: 150px; width: auto;">
                     <div class="card-body">
-                        <h6>Trappist-1 e</h6>
+                        <h6>TRAPPIST-1 e</h6>
                         <div class="price">
                             <!--Actual year-->
                             <h6>Year Discover<strong>Year</strong></h6>
