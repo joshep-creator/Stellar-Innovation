@@ -3,10 +3,10 @@
 include 'header.php';
 ?>
 
-<section id="home">
+<section id="Home">
 </section>
 
-<section id="about" >
+<section id="About" >
     <?php include 'about.php'; ?> <!-- Incluir la sección "About" -->
 </section>
 
