@@ -4,7 +4,6 @@ include 'header.php';
 ?>
 
 <section id="home">
-<img src="src/img/img.jpg" class="img-fluid" alt="...">
 </section>
 
 <section id="about" >
