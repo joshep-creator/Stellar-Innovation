@@ -1,22 +1,19 @@
 <footer class="bg-dark footer mt-5">
     <div class="container text-center">
-        <h5 class="mb-4">Créditos de los Creadores</h5>
+        <h5 class="mb-4">Creators' Credits</h5>
         <div class="row">
             <div class="col-6 col-md-4">
-                <p class="font-weight-bold text-white">Diseñado por <br>
-                    <a href="#" class="text-white">Rath Joshep Vega Moncayo</a><br>
-                    <a href="#" class="text-white">Rath Joshep Vega Moncayo</a><br>
-                    <a href="#" class="text-white">Rath Joshep Vega Moncayo</a><br>
-                    <a href="#" class="text-white">Rath Joshep Vega Moncayo</a><br>
-                    <a href="#" class="text-white">Rath Joshep Vega Moncayo</a><br>
-                    <a href="#" class="text-white">Rath Joshep Vega Moncayo</a>
+                <p class="font-weight-bold text-white">
+                    Designed by Stellar Innovation
                 </p>
             </div>
             <div class="col-6 col-md-4">
-                <p class="font-weight-bold text-white">Desarrollado por el equipo de Ingeniería de Sistemas</p>
+                <p class="font-weight-bold text-white">
+                    Developed during NASA APP SPACE CHALLENGE 2024 event</p>
             </div>
             <div class="col-6 col-md-4">
-                <p class="text-white">&copy; 2024 Todos los derechos reservados.</p>
+                <p class="text-white">&copy; 2024
+                    All rights reserved.</p>
             </div>
         </div>
         <div class="social-icons mt-3">
@@ -26,4 +23,3 @@
         </div>
     </div>
 </footer>
-
